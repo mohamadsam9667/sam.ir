@@ -1,0 +1,266 @@
+@import url(http://awebfont.ir/css?id=1116);   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'B Yekan',tahoma,Arial;
+}
+
+.countainer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+.header-top{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: nowrap;
+}
+
+.header-right{
+    display: flex;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu-item{
+    padding:10px 20px;
+    color: #999;
+}
+.menu-item:hover{
+    color: #288ed9;
+    transition: 1s;
+}
+.header-left{
+    display: flex;
+   
+}
+.header-left a{
+    padding: 5px 20px;
+    color:#288ed9;
+    text-decoration: none;
+}
+.header-left a:hover{
+    color: #080808;
+    transition: 1s;
+    padding: 10px;
+}
+.header-left .header-login{
+    background-color: #288ed9;
+    color: #fff;
+    border-radius: 60px;
+}
+
+
+
+.header-bottom{
+    display: flex;
+    align-items: center;
+}
+.header-bottom-right{
+   
+    width: 40%;
+}
+.title{
+ margin: 5px 10px;
+ color: #288ed9;
+}
+.desc{
+    margin: 15px;
+    color: #288ed9;
+}
+.info{
+    line-height: 27px;
+    color: #7e7e7e;
+    text-align: justify;
+}
+.header-bottom-left{
+   padding-right: 20px;
+    width: 60%;
+}
+
+.countainer2
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    border: 1px solid rgb(124, 124, 124);
+  background-image: linear-gradient(
+        to bottom,
+       white,
+        rgb(89, 180, 210)
+    );
+    
+}
+.countainer2 .titre
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.container1-1
+{
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: row;
+}
+.container1-1 .box
+{
+    text-align: center;
+    border: 1px solid rgb(124, 124, 124);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container1-1 .box h1{
+    background-color: #288ed9;
+    border: 1px solid rgb(124, 124, 124);
+    color: white;
+    border-radius: 40px;
+    margin-top: -20px;
+    
+}
+.container1-1 .box p{
+    line-height: 27px;
+    margin: 10px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) 
+
+{
+    .countainer{
+        width: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: nowrap;
+        
+    }
+    .header-top{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    
+    font-size: 20px ;
+    color: #434242;
+}
+.menu-item:hover{
+    color: #288ed9;
+    transition: 1s;
+}
+.header-left a{
+    font-size: 30px;
+    color: #080808;
+    transition: 1s;
+}
+    .header-left a:hover{
+        font-size: 30px;
+        color: #080808;
+        transition: 1s;
+    }
+    .header-left .header-login{
+        background-color: #288ed9;
+        color: #fff;
+        border-radius: 40%;
+    }
+    
+.header-left{
+    display: flex;
+   
+}
+.header-left a{
+    
+    color:#288ed9;
+    text-decoration: none;
+}
+.header-left a:hover{
+    color: #080808;
+    transition: 1s;
+}
+.header-left .header-login{
+    background-color: #288ed9;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+.header-bottom{
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-bottom-right{
+   order: 2;
+    width: 90vh;
+}
+.header-bottom-left{
+    order: 1;
+    padding-right: 20px;
+     width: 100vh;
+ }
+.title{
+    font-size: 40px;
+    text-align: center;
+ margin: 5px 10px;
+ color: #288ed9;
+}
+.desc{
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+    color: #288ed9;
+}
+.info{
+    line-height: 40px;
+    font-size: 30px;
+    color: #7e7e7e;
+    
+}
+    
+    
+    .countainer2
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+    border: 1px solid rgb(124, 124, 124);
+    background-image: linear-gradient(
+        to bottom,
+       white,
+        rgb(89, 180, 210)
+    );
+    
+}
+.container1-1{
+    display: flex;
+    flex-direction: column;
+}
+
+}
