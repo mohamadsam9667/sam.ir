@@ -227,7 +227,7 @@ body{
 
 {
     .countainer{
-        width: 100vh;
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
         flex-wrap: nowrap;
@@ -296,12 +296,12 @@ body{
 }
 .header-bottom-right{
    order: 2;
-    width: 90vh;
+    width: 90vw;
 }
 .header-bottom-left{
     order: 1;
     padding-right: 20px;
-     width: 100vh;
+     width: 100vw;
  }
 .title{
     font-size: 40px;
@@ -355,10 +355,10 @@ body{
     flex-direction: column;
  }
  .countainer1-2 img{
-    width: 90vh;
+    width: 90vw;
  }
  .countainer1-2 .left2{
-    width: 80vh;
+    width: 80vw;
  }
  .countainer1-2 .left2 h1{
     font-size: 40px;
@@ -373,11 +373,11 @@ body{
     flex-direction: column;
  }
 .countainer1-3 img{
-    width: 90vh;
+    width: 90vw;
     order: 1;
 }
 .countainer1-3 .right3{
-    width: 80vh;
+    width: 80vw;
     order: 2;
 }
 .countainer1-3 .right3 h1{
@@ -396,10 +396,10 @@ body{
     flex-direction: column;
 }
 .countainer1-4 img{
-    width: 90vh;
+    width: 90vw;
 }
 .left4{
-    width: 80vh;
+    width: 80vw;
 
 }
 
@@ -421,11 +421,11 @@ body{
     flex-direction: column;
 }
 .countainer1-5 img{
-    width: 90vh;
+    width: 90vw;
     order: 1;
 }
 .countainer1-5 .right5 {
-    width: 80vh;
+    width: 0vw;
     order:2;
 }
 
