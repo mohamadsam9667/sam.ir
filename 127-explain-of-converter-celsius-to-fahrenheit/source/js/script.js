@@ -32,7 +32,10 @@ convertBtn.addEventListener('click',function(){
             // inputTemp.value=''
         //   console.log(inputTemp.value)
             
-        }else{
+        }
+        
+        
+        else{
             tempF=Math.round((temp-32)*(5/9));
             resault.innerHTML=temp + '°F to '+tempF+'°C'
 
