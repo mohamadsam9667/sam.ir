@@ -1,8 +1,10 @@
 ﻿let $=document;
 let inputTodo=$.querySelector('.form-control');
 let fathetTodo=$.querySelector('.list-group')
-//  console.log(fathetTodo,inputTodo) //for test selects
 
+let trash=$.querySelectorAll('.fa')
+//  console.log(fathetTodo,inputTodo) //for test selects
+// console.log(trash)
 
 inputTodo.addEventListener('keydown',function(event){
     if(event.keyCode=='13'){
@@ -30,5 +32,10 @@ inputTodo.addEventListener('keydown',function(event){
     // console.log(inputTodo.value)
 })
 
+fathetTodo.addEventListener('click',function(event){
+    if(event.target.classList.contains('delete')){
+        event.target.parentElement.remove();
+    }
 
-
+    
+})
