@@ -8,17 +8,27 @@
    return $.getElementsByClassName(class_name);
  }
 
- // Select Elems
+ // Select Elems0
+ 
  var togglePassword = _class("toggle-password");
- var passwordField = _id("password-field");
+ var passwordField = _id("password-field"); 
+//  console.log(passwordField.type)
+// Fire click event on eye icon
 
- // Fire click event on eye icon
- togglePassword.addEventListener("click", function () {
+ passwordField.type = "password";
+ togglePassword[0].addEventListener("click", function () {
    if (passwordField.type == "text") {
-     passwordField.type = "pasword";
-     togglePassword.classList.remove("active");
+     passwordField.type = "password";
+     togglePassword[0].classList.remove("active");
+
+
+
    } else {
+    // if (passwordField.type == "password")
      passwordField.type = "text";
-     togglePassword.classList.add("active");
+     togglePassword[0].classList.add("active");
    }
  })
+
+
+ console.log("sam")
