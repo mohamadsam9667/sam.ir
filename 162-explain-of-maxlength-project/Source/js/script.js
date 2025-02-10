@@ -8,6 +8,8 @@ inputText.addEventListener('keyup',function(event){
 
     // }
 
+    
+
 
     // console.log()
 
