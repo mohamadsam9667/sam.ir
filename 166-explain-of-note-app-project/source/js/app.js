@@ -4,7 +4,7 @@ let inputText=document.querySelector(".form-control")
 let btnAdd=document.querySelector("#btn-save")
 let fatherTags=document.querySelector("#listed")
 let btnDelet=document.querySelector("#btn-delete")
-console.log(btnDelet)
+// console.log(btnDelet)
 // console.log(inputText)
 let selectedColor = "#000000";  // رنگ پیش‌فرض
 
@@ -57,8 +57,8 @@ btnAdd.addEventListener('click',function(){
 
 btnDelet.addEventListener('click',function(){
     
-    console.log("delet")
-    console.log(fatherTags.lastChild)
+    // console.log("delet")
+    // console.log(fatherTags.lastChild)
     fatherTags.lastChild.remove()
 
 
