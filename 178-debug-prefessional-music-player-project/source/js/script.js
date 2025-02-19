@@ -15,21 +15,21 @@ const background = document.getElementById("background");
 const songs = [
   {
     path:
-      "media/html.m4a",
+      "media/html.mp4",
     displayName: "Html Padcast",
     artist: "Ozbi",
     cover:
       "https://images.genius.com/ee202c6f724ffd4cf61bd01a205eeb47.1000x1000x1.jpg",
   },
   {
-    path: "media/kar.m4a",
+    path: "media/kar.mp4",
     displayName: "Developing",
     artist: "Flora Cash",
     cover: "images/peakpx.jpg",
   },
   {
     path:
-      "media/bazar.m4a",
+      "media/bazar.mp4",
     displayName: "Earn",
     artist: "Linkin Park",
     cover:
@@ -79,7 +79,7 @@ function changeCover(cover) {
   setTimeout(() => {
     image.src = cover;
     image.classList.add("active");
-  }, 100);
+  }, 1000);
   background.src = cover;
 }
 
